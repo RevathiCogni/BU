@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+.home{
+	background-image:url('/images/bg1.jpg');
+	height:100vh;
+	width:100vw;
+	background-size:100% 100%;
+}
+.profile1{
+	display:none;
+}
+@media screen and (max-width: 800px) {
+	.profile{
+		display:none;
+	}
+	.profile1{
+		display:inline;
+	}
+	.heading{
+		font-size:5vw;
+	}
+	
+}
+.main{
+	background-image:url('/images/bg1.jpg');
+	height:100vh;
+	width:100vw;
+	background-size:100% 100%;
+	padding-top:100px;
+}
+h1{
+	text-align:center;
+	font-size:3vw;
+}

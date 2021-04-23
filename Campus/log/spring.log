@@ -1,0 +1,30 @@
+2021-04-23 09:32:51.793  INFO 10336 --- [restartedMain] c.c.CampusRecruitmentSystemApplication   : Starting CampusRecruitmentSystemApplication on PCIN479462 with PID 10336 (C:\Users\895218\BU project\Campus\Campus\target\classes started by 895218 in C:\Users\895218\BU project\Campus\Campus)
+2021-04-23 09:32:51.795 DEBUG 10336 --- [restartedMain] c.c.CampusRecruitmentSystemApplication   : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2021-04-23 09:32:51.795  INFO 10336 --- [restartedMain] c.c.CampusRecruitmentSystemApplication   : No active profile set, falling back to default profiles: default
+2021-04-23 09:32:52.134  INFO 10336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-23 09:32:52.147  INFO 10336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 1 JPA repository interfaces.
+2021-04-23 09:32:52.244  INFO 10336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-23 09:32:52.245  INFO 10336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-23 09:32:52.245  INFO 10336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-04-23 09:32:52.280  INFO 10336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-23 09:32:52.280  INFO 10336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 481 ms
+2021-04-23 09:32:52.319  INFO 10336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 09:32:52.325  INFO 10336 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-23 09:32:52.331  INFO 10336 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-04-23 09:32:52.332  WARN 10336 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-04-23 09:32:52.343  WARN 10336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-23 09:32:52.435  INFO 10336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-23 09:32:52.445  INFO 10336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-23 09:32:52.446  INFO 10336 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-04-23 09:32:52.997  INFO 10336 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-04-23 09:32:52.997  INFO 10336 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-04-23 09:32:53.676  INFO 10336 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-23 09:32:53.676  INFO 10336 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-23 09:32:53.701  INFO 10336 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-04-23 09:32:53.705  INFO 10336 --- [restartedMain] c.c.CampusRecruitmentSystemApplication   : Started CampusRecruitmentSystemApplication in 2.017 seconds (JVM running for 1375.863)
+2021-04-23 09:32:53.707  INFO 10336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-23 09:32:56.636  INFO 10336 --- [RMI TCP Connection(38)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-23 09:32:56.649  INFO 10336 --- [RMI TCP Connection(38)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-23 09:32:56.650  INFO 10336 --- [RMI TCP Connection(38)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 09:32:56.650  INFO 10336 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-04-23 09:32:56.657  INFO 10336 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
